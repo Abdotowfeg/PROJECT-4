@@ -1,5 +1,3 @@
-
-
 # Reading data from UCI HAR Data file.
 
 # reading training data from train file
@@ -40,3 +38,4 @@ mergeData$subject <- as.factor(mergeData$subject)
 
 new_tidy <- aggregate(mergeData, by = list(activity = mergeData$activity, subject = mergeData$subject), mean)
 
+write.table(new_tidy, "tidy.txt", sep = "\t")
