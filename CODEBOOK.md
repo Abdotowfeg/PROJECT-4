@@ -1,4 +1,4 @@
-
+code book
  for this derived dataset, these signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
